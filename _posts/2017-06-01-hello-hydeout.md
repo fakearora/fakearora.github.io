@@ -10,6 +10,7 @@ First,
 
 Let’s understand data:
 
+
 Data about any person could be their age, gender, address, photo, occupation, health information, likes, dislikes, business data, etc. It’s limitless.
 
 > *"Data can be any piece of information available in any format"*.
@@ -27,7 +28,7 @@ It can be raw/unorganized available in text, picture, pdf, audio, sound, etc.
 
 For example, the text file in the image is technically a database containing values separated by a comma. The comma separates each field/column within a row. This gives the file its structure.
 
-![](CSVandExcel.png)
+![](../_screenshots/CSVandExcel.png)
 [Figure 1]()
 
 
@@ -55,7 +56,7 @@ Let’s say a university has around ~ 1 TB of data and we decide to use our file
 
 Library is a large database of books, then the librarian here will be the DBMS. Through the librarian, we can ask for a certain piece of information who then will go through the library and find the information.
 
-![](DBMS.PNG)
+![](../_screenshots/DBMS.PNG)
 [Figure 2](https://swinbrain.ict.swin.edu.au/wiki/File:DBMSSoftware.gif)
 
 Another analogy can be drawn with a word processor. The word processor like DBMS is a software program and is used to manipulate documents. The documents themselves are similar to a database and can be manipulated by the software.
