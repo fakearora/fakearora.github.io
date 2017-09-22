@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello Hydeout
+title: Siddharth's Arora blog post on Databases
 excerpt_separator:  <!--more-->
 ---
 
