@@ -19,7 +19,7 @@ Data about any person could be their age, gender, address, photo, occupation, he
 It can be raw/unorganized available in text, picture, pdf, audio, sound, etc.
 
 
-## **Motivation for Databases** ##
+## **Motivation for Databases**
 
 **Databases** are everywhere. We go about our daily lives using them. Our phonebook is a database of contacts. Social media websites like Facebook, Twitter, Instagram, etc. store all our data in a database. A library is a large database of books. Google stores details of pages we search in a database.
 
@@ -37,7 +37,7 @@ Each row represents a different record which is basically a different artist. Th
 
 We can also store and structure data using an excel spreadsheet. Excel naturally organizes data into rows and columns, making it easy to read and retrieve. In addition, it also provides us the ability to format or sort columns.
 
- ## **Motivation for Data Base Management System (DBMS)** ##
+## **Motivation for Data Base Management System (DBMS)** ##
 
 Let’s say a university has around ~ 1 TB of data and we decide to use our file-based system from the previous example. Data of the students will be available to different departments, accounting section, recreation etc. Some of the fields like Student Id, Phone, Address will be common across these sections.
 
