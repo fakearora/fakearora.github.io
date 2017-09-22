@@ -37,7 +37,7 @@ Each row represents a different record which is basically a different artist. Th
 
 We can also store and structure data using an excel spreadsheet. Excel naturally organizes data into rows and columns, making it easy to read and retrieve. In addition, it also provides us the ability to format or sort columns.
 
-## **Motivation for Data Base Management System (DBMS)** ##
+## **Motivation for Data Base Management System (DBMS)**
 
 Let’s say a university has around ~ 1 TB of data and we decide to use our file-based system from the previous example. Data of the students will be available to different departments, accounting section, recreation etc. Some of the fields like Student Id, Phone, Address will be common across these sections.
 
@@ -56,8 +56,7 @@ Let’s say a university has around ~ 1 TB of data and we decide to use our file
 
 Library is a large database of books, then the librarian here will be the DBMS. Through the librarian, we can ask for a certain piece of information who then will go through the library and find the information.
 
-![](../_screenshots/DBMS.PNG)
-[Figure 2](https://swinbrain.ict.swin.edu.au/wiki/File:DBMSSoftware.gif)
+![Figure 2](../_screenshots/DBMS.PNG)
 
 Another analogy can be drawn with a word processor. The word processor like DBMS is a software program and is used to manipulate documents. The documents themselves are similar to a database and can be manipulated by the software.
 
