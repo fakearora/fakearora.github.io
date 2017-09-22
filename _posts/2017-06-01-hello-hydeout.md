@@ -10,7 +10,6 @@ First,
 
 Let’s understand data:
 
-
 Data about any person could be their age, gender, address, photo, occupation, health information, likes, dislikes, business data, etc. It’s limitless.
 
 > *"Data can be any piece of information available in any format"*.
@@ -28,7 +27,7 @@ It can be raw/unorganized available in text, picture, pdf, audio, sound, etc.
 
 For example, the text file in the image is technically a database containing values separated by a comma. The comma separates each field/column within a row. This gives the file its structure.
 
-![](../_screenshots/CSVandExcel.png)
+![](CSVandExcel.png)
 [Figure 1]()
 
 
@@ -56,7 +55,7 @@ Let’s say a university has around ~ 1 TB of data and we decide to use our file
 
 Library is a large database of books, then the librarian here will be the DBMS. Through the librarian, we can ask for a certain piece of information who then will go through the library and find the information.
 
-![](../_screenshots/DBMS.PNG)
+![](DBMS.PNG)
 [Figure 2](https://swinbrain.ict.swin.edu.au/wiki/File:DBMSSoftware.gif)
 
 Another analogy can be drawn with a word processor. The word processor like DBMS is a software program and is used to manipulate documents. The documents themselves are similar to a database and can be manipulated by the software.
@@ -81,69 +80,10 @@ The DBMS evolved from the File System and is extensively used. Though still, the
 
 1. https://www.youtube.com/watch?v=Ls_LzOZ7x0c
 
-
 2. http://www.geeksforgeeks.org/database-management-system-introduction-set-1/
 
 3. https://swinbrain.ict.swin.edu.au/wiki/Database_Management_Systems_Introduction
+
 4. https://www.youtube.com/watch?v=t8jgX1f8kc4
+
 5. https://swinbrain.ict.swin.edu.au/wiki/File:DBMSSoftware.gif
-
-
-```scss
-$sidebar-bg-color: #202020 !default;
-$sidebar-sticky: true !default;
-$layout-reverse: false !default;
-$link-color: #268bd2 !default;
-```
-
-To override these variables, create your own `assets/css/main.scss` file.
-Define your own variables, then import in Hydeout's SCSS, like so:
-
-```
----
-# Jekyll needs front matter for SCSS files
----
-
-$sidebar-bg-color: #ac4142;
-$link-color: #ac4142;
-$sidebar-sticky: false;
-@import "hydeout";
-```
-
-See the [_variables](_sass/hydeout/_variables.scss) file for other variables
-you can override.
-
-You can also insert custom head tags (e.g. to load your own stylesheets) by
-defining your own `_includes/custom-head.html` or insert tags at the end
-of the body (e.g. for custom JS) by defining your own
-`_includes/custom-foot.html`.
-
-### New Features
-
-* Hydeout also adds a new tags page (accessible in the sidebar) and a new
-  "category" layout for dedicated category pages.
-
-* Category pages are automatically added to the sidebar. All other pages
-  must have `sidebar_link: true` in their front matter to show up in
-  the sidebar.
-
-* A simple redirect-to-Google search is available. If you want to use
-  Google Custom Search or Algolia or something with more involved,
-  override the `search.html`.
-
-* Disqus integration is ready out of the box. Just add the following to
-  your config file:
-
-  ```yaml
-  disqus:
-    shortname: my-disqus-shortname
-  ```
-
-  If you don't want Disqus or want to use something else, override
-  `comments.html`.
-
-* For Google Analytics support, define a `google_analytics` variable with
-  your property ID in your config file.
-
-There's also a bunch of minor tweaks and adjustments throughout the
-theme. Hope this works for you!
